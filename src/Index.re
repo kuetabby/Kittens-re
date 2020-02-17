@@ -27,7 +27,4 @@ let makeContainer = text => {
   content;
 };
 
-ReactDOMRe.render(
-  <FetchPerson />,
-  makeContainer("Fetch Person with Kitties"),
-);
+ReactDOMRe.render(<FetchKittens />, makeContainer("Fetch Kittens"));
